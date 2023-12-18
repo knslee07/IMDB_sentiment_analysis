@@ -10,6 +10,7 @@ Used methods are as follows:
 ### 3. SequenceClassification model using the ELECTRA-small-discriminator checkpoint (IMDB NN.ipynb)
    I used the transformer library and fine-tuned the ELECTRA-small-discriminator with training on the dataset. 
    The accuracy reached over 93% in the thrid epoch.
+   The fine-tuned model can be downloaded at https://huggingface.co/knslee07/IMDB_sentiment_ELECTRA-small.
 ### 4. Hugging Face (HF) pipeline
   Lastly, I used a quick but powerful fix using the Hugging Face pipeline with bert and distilbert with truncation.
 
